@@ -199,39 +199,6 @@ header label i {
   max-width: 50px;
 }
 
-/* Footer */
-.kfc-footer {
-  width: 100%;
-  position: fixed;
-  z-index: 101;
-  bottom: 0;
-  left: 0;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  flex-direction: column;
-}
-
-/* Social Icons */
-.kfc-footer .social {
-  margin-bottom: 10px;
-}
-
-.kfc-footer .social a {
-  margin-left: 20px;
-}
-
-.kfc-footer .social i {
-  color: #000;
-  font-size: 1.6rem;
-  transition: all 0.3s ease-in;
-}
-
-.kfc-footer .social i:hover {
-  transform: scale(1.1);
-}
-
 /* -----Image Slide----- */
 /* First Image */
 #burger:checked ~ .container .bg-img img:nth-child(1) {
