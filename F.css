@@ -268,7 +268,9 @@ header label i {
     max-width: 550px;
     text-align: center;
   }
-
+.container .text-box a{
+  margin-top: 12rem;
+}
   .container .bg-img {
     max-width: 450px;
     width: 100%;
