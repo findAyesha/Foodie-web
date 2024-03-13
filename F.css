@@ -166,6 +166,7 @@ header label i {
   height: 100%;
   clip-path: circle(60% at right);
   transition: all 0.5s ease-in;
+  position: fixed;
 }
 
 .red {
