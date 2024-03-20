@@ -330,7 +330,12 @@ header label i {
   .thumb img {
     max-width: 30px;
   }
-
+.red{
+  top: 40%;
+}
 }
 
 
+.para{
+  z-index: 101;
+}
