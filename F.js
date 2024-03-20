@@ -26,7 +26,7 @@ darkmode.onclick = () => {
 const sr = ScrollReveal ({
     origin: 'top',
     distance: '40px',
-    duration: 2000,
+    duration: 1000,
     reset: true
 });
 
