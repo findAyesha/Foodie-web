@@ -330,7 +330,16 @@ header label i {
   .thumb img {
     max-width: 30px;
   }
+
 .red{
+  top: 50%;
+}
+
+.yellow{
+  top: 50%;
+}
+
+.orange{
   top: 50%;
 }
 }
