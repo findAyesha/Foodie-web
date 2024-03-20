@@ -300,9 +300,11 @@ header label i {
 
   .orange{
     top: 120%;
+  background-color: #d35400;
   }
 
   .yellow{
+  background-color: #f39c12;
     top: 120%;
   }
 }
