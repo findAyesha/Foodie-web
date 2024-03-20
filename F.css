@@ -177,7 +177,7 @@ header label i {
 
 .yellow {
   background-color: #f39c12;
-  top: 50%; /* Position in the middle of the section */
+  top: 0; /* Position in the middle of the section */
 }
 
 .orange {
@@ -289,6 +289,13 @@ header label i {
   /* Footer */
   .kfc-footer {
     position: relative;
+  }
+
+
+  
+  .red {
+    background-color: #c0392b;
+    top: 120%; /* Position at the top of the section */
   }
 }
 
