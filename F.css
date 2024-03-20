@@ -157,29 +157,34 @@ header label i {
   width: 90%;
 }
 
+
 /* Shapes */
 .shape {
-  position: fixed;
+  position: absolute; /* Change from fixed to absolute */
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100%; /* Adjust the height as needed */
   clip-path: circle(60% at right);
   transition: all 0.5s ease-in;
-  position: fixed;
 }
 
+/* Adjust each shape individually */
 .red {
   background-color: #c0392b;
+  top: 0; /* Position at the top of the section */
 }
 
 .yellow {
   background-color: #f39c12;
+  top: 50%; /* Position in the middle of the section */
 }
 
 .orange {
   background-color: #d35400;
+  bottom: 0; /* Position at the bottom of the section */
 }
+
 
 /* -----Fixed Image Slide Menu----- */
 .thumb {
@@ -268,7 +273,8 @@ header label i {
     max-width: 550px;
     text-align: center;
   }
-.container .text-box a{
+
+ .container .text-box a{
   margin-top: 12rem;
 }
   .container .bg-img {
