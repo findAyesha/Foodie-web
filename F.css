@@ -297,6 +297,14 @@ header label i {
     background-color: #c0392b;
     top: 120%; /* Position at the top of the section */
   }
+
+  .orange{
+    top: 120%;
+  }
+
+  .yellow{
+    top: 120%;
+  }
 }
 
 @media (max-width: 470px) {
