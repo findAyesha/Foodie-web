@@ -187,20 +187,19 @@ header {
   transition: all 0.5s ease-in;
 }
 
-/* Adjust each shape individually */
 .red {
   background-color: #c0392b;
-  top: 0; /* Position at the top of the section */
+  top: 0; 
 }
 
 .yellow {
   background-color: #f39c12;
-  top: 0; /* Position in the middle of the section */
+  top: 0; 
 }
 
 .orange {
   background-color: #d35400;
-  bottom: 0; /* Position at the bottom of the section */
+  bottom: 0;
 }
 
 
@@ -301,7 +300,7 @@ header {
   
   .red {
     background-color: #c0392b;
-    top: 120%; /* Position at the top of the section */
+    top: 120%;
   }
 
   .orange{
@@ -376,7 +375,7 @@ header {
   }
 
 .red{
-  top: 60%;
+  top: 80%;
 }
 
 .yellow{
