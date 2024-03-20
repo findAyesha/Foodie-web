@@ -1,10 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+  list-style: none;
+  text-decoration: none;
+}
+*::selection {
+  background: var(--main-color);
+  color: #fff;
+}
+:root {
+  --main-color: #ffb411;
+  --text-color: #1e1c2a;
+  --bg-color: #fff;
+
+  --big-font: 4rem;
+  --h2-font: 2.24rem;
+  --p-font: 0.9rem;
+}
+section {
+  padding: 50px 10%;
+}
+body.active {
+  --bg-color: #1e1c2a;
+  --text-color: #fff;
+}
+body {
+  color: var(--text-color);
+  background: var(--bg-color);
+}
+#darkmode {
+  font-size: 25px;
+  cursor: pointer;
 }
 
 body {
@@ -356,83 +388,8 @@ header {
 }
 }
 
+/* Home */
 
-
-/* Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  scroll-padding-top: 2rem;
-  list-style: none;
-  text-decoration: none;
-}
-*::selection {
-  background: var(--main-color);
-  color: #fff;
-}
-:root {
-  --main-color: #ffb411;
-  --text-color: #1e1c2a;
-  --bg-color: #fff;
-
-  --big-font: 4rem;
-  --h2-font: 2.24rem;
-  --p-font: 0.9rem;
-}
-section {
-  padding: 50px 10%;
-}
-body.active {
-  --bg-color: #1e1c2a;
-  --text-color: #fff;
-}
-body {
-  color: var(--text-color);
-  background: var(--bg-color);
-}
-#darkmode {
-  font-size: 25px;
-  cursor: pointer;
-}
-header {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  right: 0;
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: var(--bg-color);
-  padding: 18px 100px;
-  box-shadow: 0 0.5rem 50rem rgba(0, 0, 0, 0.1);
-}
-.logo {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: var(--main-color);
-}
-.navbar {
-  display: flex;
-}
-.navbar a {
-  font-size: 1rem;
-  padding: 10px 20px;
-  color: var(--text-color);
-  font-weight: 500;
-}
-.navbar a:hover {
-  color: var(--main-color);
-}
-#menu-icon {
-  font-size: 2rem;
-  cursor: pointer;
-  display: none;
-}
 .home {
   width: 100%;
   min-height: 100vh;
@@ -537,7 +494,7 @@ header {
   right: 0;
   top: 0;
   font-size: 20px;
-  background: var(--main-color);
+  background: black;
   border-radius: 0 0.5rem 0 0.5rem;
   padding: 5px 8px;
 }
