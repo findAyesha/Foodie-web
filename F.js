@@ -38,3 +38,4 @@ sr.reveal(`.home-text, .home-img,
             .contact-box`, {
     interval: 200
 })
+
