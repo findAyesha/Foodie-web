@@ -643,3 +643,8 @@ header {
     padding-top: 4rem;
   }
 }
+
+.dark-mode {
+  background-color: #1e1c2a;
+  color: white; /* Optionally adjust text color */
+}

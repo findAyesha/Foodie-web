@@ -39,3 +39,16 @@ sr.reveal(`.home-text, .home-img,
     interval: 200
 })
 
+let darkmod = document.querySelector('#darkmode');
+let body = document.body;
+
+darkmod.onclick = () => {
+    if(darkmod.classList.contains('bx-moon')){
+        darkmod.classList.replace('bx-moon','bx-sun');
+        body.classList.add('dark-mode'); // Add a class to body for dark mode
+    } else {
+        darkmod.classList.replace('bx-sun','bx-moon');
+        body.classList.remove('dark-mode'); // Remove dark mode class from body
+    }
+}
+
