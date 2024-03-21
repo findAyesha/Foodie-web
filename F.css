@@ -576,6 +576,10 @@ header {
     --big-font: 3rem;
     --h2-font: 1.7rem;
   }
+  .dark-mode {
+    background-color: #1e1c2a;
+    color: white; 
+  }
 }
 @media (max-width: 768px) {
   section {
@@ -610,6 +614,10 @@ header {
     top: 1.4rem;
     right: 2rem;
   }
+  .dark-mode {
+    background-color: #1e1c2a;
+    color: white; 
+  }
 }
 @media (max-width: 715px) {
   header {
@@ -625,6 +633,10 @@ header {
   .about-img {
     order: 2;
   }
+  .dark-mode {
+    background-color: #1e1c2a;
+    color: white; 
+  }
 }
 @media (max-width: 515px) {
   .connect {
@@ -632,6 +644,10 @@ header {
   }
   .connect .btn {
     margin-top: 1rem;
+  }
+  .dark-mode {
+    background-color: #1e1c2a;
+    color: white; 
   }
 }
 @media (max-width: 450px) {
@@ -642,9 +658,13 @@ header {
   .home-text {
     padding-top: 4rem;
   }
+  .dark-mode {
+    background-color: #1e1c2a;
+    color: white; 
+  }
 }
 
 .dark-mode {
   background-color: #1e1c2a;
-  color: white; /* Optionally adjust text color */
+  color: white; 
 }
