@@ -668,3 +668,7 @@ header {
   background-color: #1e1c2a;
   color: white; 
 }
+.dark-mode .navbar.active{
+  background-color: black;
+  color: white;
+}

@@ -10,15 +10,17 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 }
 // Dark Mode
-let darkmode = document.querySelector('#darkmode');
 
-darkmode.onclick = () => {
-    if(darkmode.classList.contains('bx-moon')){
-        darkmode.classList.replace('bx-moon','bx-sun');
-        document.body.classList.add('active');
-    }else{
-        darkmode.classList.replace('bx-sun','bx-moon');
-        document.body.classList.remove('active');
+let darkMode = document.querySelector('#darkmode');
+let body = document.body;
+
+darkMode.onclick = () => {
+    if(darkMode.classList.contains('bx-moon')){
+        darkMode.classList.replace('bx-moon','bx-sun');
+        body.classList.add('dark-mode','active'); 
+    } else {
+        darkMode.classList.replace('bx-sun','bx-moon');
+        body.classList.remove('dark-mode','active'); 
     }
 }
 
@@ -38,17 +40,4 @@ sr.reveal(`.home-text, .home-img,
             .contact-box`, {
     interval: 200
 })
-
-let darkmod = document.querySelector('#darkmode');
-let body = document.body;
-
-darkmod.onclick = () => {
-    if(darkmod.classList.contains('bx-moon')){
-        darkmod.classList.replace('bx-moon','bx-sun');
-        body.classList.add('dark-mode'); // Add a class to body for dark mode
-    } else {
-        darkmod.classList.replace('bx-sun','bx-moon');
-        body.classList.remove('dark-mode'); // Remove dark mode class from body
-    }
-}
 
