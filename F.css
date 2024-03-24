@@ -204,8 +204,11 @@ header {
 
 
 /* -----Fixed Image Slide Menu----- */
-.thumb {
+body .thumb{
   position: fixed;
+}
+.thumb {
+  position: fixed !important;
   top: 50%;
   transform: translateY(-50%);
   right: 5px;
@@ -667,8 +670,4 @@ header {
 .dark-mode {
   background-color: #1e1c2a;
   color: white; 
-}
-.dark-mode .navbar.active{
-  background-color: black;
-  color: white;
 }
