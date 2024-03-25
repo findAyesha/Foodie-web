@@ -183,3 +183,4 @@ sr.reveal(`.home-text, .home-img,
     interval: 200
 })
 
+// adding js path
