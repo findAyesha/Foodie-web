@@ -393,7 +393,6 @@ body .thumb{
 /* Home */
 
 .home {
-  margin-top: 25rem;
   width: 100%;
   min-height: 100vh;
   display: grid;
